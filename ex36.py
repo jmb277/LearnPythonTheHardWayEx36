@@ -1,11 +1,14 @@
 from sys import exit
 import random # to get randoms for make_game
 import time # for delaying the printing of the text to screen
-# from sys import argv this was used for test()
+# from sys import argv # this was used for test()
 
+# A short game.  I used to time to make the text more naturally appear on the screen
+# as it's played. I'm not sure it's a 'fun' game. Enjoy responsibly. 
 
 
 def demon():
+	# this is the Demon encounter
 	print "\nA DEMON emerges from a crevice in the wall."
 	print "He's kinda bummed you're here." 
 	print "What's the best course of action?" 
